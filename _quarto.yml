@@ -3,15 +3,6 @@ project:
   render:
     - "*.ipynb"
 
-website:
-  title: "Make Book"
-  sidebar:
-    style: "docked"
-    search: true
-    contents:
-      - "index.ipynb"
-      - auto: "*.ipynb"
-
 format:
   html:
     toc: true
@@ -22,3 +13,16 @@ format:
     monofont: D2Coding
     language:
       crossref-tbl-title: "표"
+
+bibliography: references.bib
+reference-location: margin
+
+website:
+  title: "Make Book"
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - "index.ipynb"
+      - "variable.ipynb"
+      - "reference.ipynb"
