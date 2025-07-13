@@ -1,0 +1,24 @@
+project:
+  type: website
+  render:
+    - "*.ipynb"
+
+website:
+  title: "Make Book"
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - "index.ipynb"
+      - auto: "*.ipynb"
+
+format:
+  html:
+    toc: true
+    css: styles.css
+    code-block-bg: true
+    code-overflow: wrap
+    code-line-numbers: true
+    monofont: D2Coding
+    language:
+      crossref-tbl-title: "표"
