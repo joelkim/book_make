@@ -1,3 +1,3 @@
 #!/bin/bash
 quarto render
-ghp-import -c make.datascienceschool.net -f -n -o -p _site
+ghp-import -c make.bykim.dev -f -n -o -p _site
